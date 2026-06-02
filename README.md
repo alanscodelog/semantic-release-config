@@ -1,5 +1,6 @@
-[![Release](https://github.com/alanscodelog/semantic-release-config/actions/workflows/release.yml/badge.svg)](https://github.com/alanscodelog/semantic-release-config/actions/workflows/release.yml)
-[![NPM Version (with latest tag)](https://img.shields.io/npm/v/%40alanscodelog%2Fsemantic-release-config/latest)](https://www.npmjs.com/package/@alanscodelog/semantic-release-config/v/latest)
+[![Release][release-src]][release-href]
+[![npm version][npm-version-src]][npm-version-href]
+[![License][license-src]][license-href]
 
 My preferred semantic release config:
 
@@ -104,3 +105,11 @@ Personally I try to stick with master and beta to keep things simple.
 - The `@semantic-release/github` and `@semantic-release/npm` plugins are used in the config without options so global options will be passed down to them, but, for other plugins, it doesn't seem possible to override any options that were already passed down to them.
 
 - Additionally note the debug flag for semantic-release does not seem to reflect the passing of this global options. I have filed an issue regarding all this [here](https://github.com/semantic-release/semantic-release/issues/1567)
+
+<!-- Badges -->
+[release-src]: https://github.com/alanscodelog/semantic-release-config/actions/workflows/release.yml/badge.svg
+[release-href]: https://github.com/alanscodelog/semantic-release-config/actions/workflows/release.yml
+[npm-version-src]: https://img.shields.io/npm/v/@alanscodelog/semantic-release-config/latest
+[npm-version-href]: https://www.npmjs.com/package/@alanscodelog/semantic-release-config/v/latest
+[license-src]: https://img.shields.io/npm/l/@alanscodelog/semantic-release-config.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/@alanscodelog/semantic-release-config
